@@ -75,7 +75,7 @@ int main(int argc, char**argv)
 
 	/* Do processing
 	*/
-	
+	while (1==1) {
 	printf("Please enter the message: ");
 
 	bzero(buffer,256);
@@ -101,6 +101,6 @@ int main(int argc, char**argv)
 	}
 
 	printf("%s\n",buffer);
-
+	}
 	return 0;
 }

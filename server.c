@@ -78,6 +78,7 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 	
+	while (1==1) {
 	bzero(buffer,256);
 
 	/* Read characters from the connection,
@@ -100,7 +101,7 @@ int main(int argc, char **argv)
 		perror("ERROR writing to socket");
 		exit(1);
 	}
-	
+	}
 	/* close socket */
 	
 	close(sockfd);
